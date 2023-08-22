@@ -18,7 +18,7 @@ Created and submitted as Group Project 2 for Monash University Data Analytics Bo
 - Extracts categories and subcategories from crowdfunding.xlsx. 
 - Generates NumPy array and concatenates 'cat' or 'subcat' to array for use as keys in PostgreSQL Schema.
 - Creates Pandas dataframes containing these data (cat/subcat_ids and cat/subcat names).  
-- Exports dataframes as CSV files for PostgreSQL database creation.
+- Exports dataframes as CSV files for PostgreSQL database loading.
 
 ### ETL_Mini_Project_AFadillah.ipynb
 
@@ -42,7 +42,6 @@ Project created and run using:
   - Pandas 1.5.3
   - NumPy 1.24.3
 - pgAdmin 4 version 7.2
-- SQLAlchemy 1.4.39
 - QuickDatabaseDiagrams.com
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
@@ -51,7 +50,9 @@ Project created and run using:
 
 #### Entity Relationship Diagram (ERD)
 
-![ERD](Resources/ERD.png)
+NOTE: Please see [Resources/Database_Screenshots] for screenshots of crowdfunding_db and tables.  
+
+![ERD](ERD.png)
 
 ## Code example
 
@@ -68,9 +69,6 @@ cat_ids = ['cat' + category_id for category_id in cat_ids_srs]
 
 # Use a list comprehension to add "subcat" to each subcategory_id.    
 scat_ids = ['subcat' + scategory_id for scategory_id in scat_ids_srs]
-    
-print(cat_ids)
-print(scat_ids)
 ```
 
 ## References
