@@ -1,5 +1,5 @@
 # Crowdfunding ETL - Group 3
-Extract, clean and transform data from Excel files using Pandas for PostgreSQL database creation!
+Extract, clean and transform data from Excel files using Pandas for PostgreSQL database creation and loading!
 
 Created and submitted as Group Project 2 for Monash University Data Analytics Boot Camp (August 2023).
 
