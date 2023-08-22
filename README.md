@@ -34,6 +34,13 @@ Created and submitted as Group Project 2 for Monash University Data Analytics Bo
 - placeholder. 
 - placeholder. 
 
+### crowdfunding_db_schema.sql
+
+- Creates Contacts, Category, Subcategory & Campaign Tables.
+  - see ERD Screenshot below. 
+- Facilitates import of CSV files generated from Python files described above into these Tables. 
+- Displays contents of Tables using SQL `SELECT` statement. 
+
 ## Technologies
 
 Project created and run using:
