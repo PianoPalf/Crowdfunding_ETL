@@ -19,13 +19,17 @@ Created and submitted as Group Project 2 for Monash University Data Analytics Bo
 - Generates NumPy array and concatenates 'cat' or 'subcat' to array for use as keys in PostgreSQL Schema.
 - Creates Pandas dataframes containing these data (cat/subcat_ids and cat/subcat names).  
 - Exports dataframes as CSV files for PostgreSQL database loading.
+- Connects to PostgreSQL Server and Database, loads data from Pandas Dataframes into Tables.
 
 ### ETL_Mini_Project_AFadillah.ipynb
 
-- placeholder. 
-- placeholder. 
-- placeholder. 
-- placeholder. 
+- Create a copy of the crowdfunding_info_df DataFrame name campaign_df.
+- Rename the blurb, launched_at, and deadline columns.
+- Convert the goal and pledged columns to a `float` data type.
+- Format the launched_date and end_date columns to datetime format.
+- Merge the campaign_df with the category_df on the "category" column and the subcategory_df on the "subcategory" column.
+- Drop unwanted columns.
+- Export the DataFrame as a CSV file.
 
 ### ETL_Mini_Project_RGeeson.ipynb
 
