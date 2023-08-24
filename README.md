@@ -33,16 +33,17 @@ Created and submitted as Group Project 2 for Monash University Data Analytics Bo
 
 ### ETL_Mini_Project_RGeeson.ipynb
 
-- placeholder. 
-- placeholder. 
-- placeholder. 
-- placeholder. 
+- Using Option 2: REgEx.
+- Import contacts.xlsx, extract three columns using reg ex
+- Create new DF with the extracted data
+- Convert data column types as required
+- Clean data by splitting name column into first and last name, dropping original column
+- Export as contacts.csv file.
 
 ### crowdfunding_db_schema.sql
 
 - Creates Contacts, Category, Subcategory & Campaign Tables.
   - see ERD Screenshot below. 
-- Facilitates import of CSV files generated from Python files described above into these Tables. 
 - Displays contents of Tables using SQL `SELECT` statement. 
 
 ## Technologies
@@ -53,6 +54,7 @@ Project created and run using:
   - Pandas 1.5.3
   - NumPy 1.24.3
 - pgAdmin 4 version 7.2
+- SQLAlchemy 1.4.39
 - QuickDatabaseDiagrams.com
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
@@ -86,6 +88,12 @@ scat_ids = ['subcat' + scategory_id for scategory_id in scat_ids_srs]
 
 - Creating Pandas Dataframes using Lists and zip() function:
   - https://www.geeksforgeeks.org/create-a-pandas-dataframe-from-lists/
+
+- Str.extract information:
+  - https://pandas.pydata.org/docs/reference/api/pandas.Series.str.extract.html
+
+- Lists and dictionaries:
+  - https://stackoverflow.com/questions/70520068/segregate-a-list-of-dictionary-into-multiple-lists
 
 - Code, in general, was adapted from Monash University Data Analytics Boot Camp 2023 course learning material.
 
