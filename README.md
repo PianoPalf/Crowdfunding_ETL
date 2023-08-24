@@ -16,7 +16,7 @@ Created and submitted as Group Project 2 for Monash University Data Analytics Bo
 ### ETL_Mini_Project_SPalframan.ipynb
 
 - Extracts categories and subcategories from crowdfunding.xlsx. 
-- Generates NumPy array and concatenates 'cat' or 'subcat' to array for use as keys in PostgreSQL Schema.
+- Generates NumPy array, converts to Pandas Series and concatenates 'cat' or 'subcat' to values for use as keys in PostgreSQL Schema.
 - Creates Pandas dataframes containing these data (cat/subcat_ids and cat/subcat names).  
 - Exports dataframes as CSV files for PostgreSQL database loading.
 - Connects to PostgreSQL Server and Database, loads data from Pandas Dataframes into Tables.
